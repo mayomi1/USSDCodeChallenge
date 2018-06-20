@@ -44,7 +44,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
 app.get('*', (req, res) => {
-    res.send('This is tutorial App on creating your first USSD app in 5 minutes or less by Ajala Abdulsamii <kgasta@gmail.com>')
+    res.send('This is a USSDCodeChallenge')
 })
 
 app.post('*', (req, res) => {
